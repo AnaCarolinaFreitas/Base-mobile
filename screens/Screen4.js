@@ -1,8 +1,8 @@
 import { Image } from 'expo-image';
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity, Linking } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
-export default function Profile(route) {
+export default function Profile() {
     const openGitHub = () => {
         Linking.openURL('https://github.com/AnaCarolinaFreitas');
     };
