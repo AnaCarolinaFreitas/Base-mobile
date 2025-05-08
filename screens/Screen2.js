@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, FlatList, StyleSheet, ScrollView } from 'react-native';
 import InfoCard from '../components/InfoCard';
-import { autores, livros } from '../data/emojis';
+import { autores, livros } from '../data/screen2Data';
 
 export default function FlatListExemplo() {
     const renderItem = ({ item }) => (
